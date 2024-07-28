@@ -1,3 +1,4 @@
+//find maximum and minimum value in an array.
 package arrays;
 
 public class Sorting {
