@@ -1,0 +1,14 @@
+<suite name="Test Suite for Practice" verbose="1">
+<test name="Grouping of test cases">
+    <groups>
+        <run>
+            <include name="regression"/>
+            <include name="sanity"/>
+        </run>
+    </groups>
+    <classes>
+        <class name="testng.Sample6"/>
+        <class name="testng.Sample7"/>
+    </classes>
+</test>
+</suite>

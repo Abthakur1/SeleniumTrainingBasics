@@ -1,0 +1,11 @@
+<suite name="Test Suite for Practice" verbose="1">
+    <test name="Run all test cases from Sample4 except tc01" preserve-order="false">
+        <classes>
+            <class name="testng.Sample4">
+                <methods>
+                    <exclude name="tc01"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
