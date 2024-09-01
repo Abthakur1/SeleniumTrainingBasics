@@ -1,0 +1,8 @@
+<suite name="Test Suite for Practice" verbose="1" parallel = "method" thread-count= "3">
+    <test name="Run tests in parallel" preserve-order="false">
+        <classes>
+            <class name="testng.Sample12">
+            </class>
+        </classes>
+    </test>
+</suite>

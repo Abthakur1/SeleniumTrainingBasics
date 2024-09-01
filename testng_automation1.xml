@@ -1,0 +1,10 @@
+<suite name="Test Suite for Practice" verbose="1">
+    <parameter name = "username" value ="admin@admin.com"/>
+    <parameter name = "password" value ="admin123"/>
+    <test name="Parameterised test" preserve-order="false">
+        <classes>
+            <class name="testng.Automation1_testNg">
+            </class>
+        </classes>
+    </test>
+</suite>
